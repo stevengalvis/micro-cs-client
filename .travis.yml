@@ -1,0 +1,12 @@
+language: node_js
+node_js: node
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: pON3kcbgkF/kIS2PDlzyy3i5/lcVR//6vUOrmSKTeis1XCKQ4XO9hNfNI5IBogFRMs7gukybNdpjXY7caJqDP6uPiJqBn6cN+Oo2wOq5l2VNTBbfmaHrBErUumnC9qK0AW2hHQS0uBiXOXngbeqiEPFiPBJATDD/0mXsauFC6pWHtIsQ8K32rY024PM7c0bxkX3p85kItgHdgCbEbpp5thJktJKe/ZCWvLLAi6h97KxlCh2Zk0t0aAQQMu/jhw75uaLn/M7bGQa4PZmnomEGM3nX2ABSeav+wtmWMB/xQfBUllxhzboUp32r6jssCRs4Uae9MjPzJE2EVaFbW9hbVuZREx5MAK/wVtcOI8sGpqm41RDF1J6aDLrrXPkSTEG5AZSkkJT6LYv25VTMvZ9zgJQZ/5lZPHnBMel3MKgRPVBrC+w9fq7JNJX8tmaUkA7tp1QN6GRU43MwBEIq0Zs2V8PDh0057ojxA2lEmnub3Mw6Mjn8kLM6l9ZIS9/BOe+MT3c/v7jMZEdsKIIx+BlGHp1VeeIzM7tLP72wEU39O20/JoSBoCGZMneMthXBoJEgYh+Uk04Zi0Wdl3AtQfEevliiiPMIjU+S7U9MT3m/34g6VSflPQwxpcX5XWAkcfzm5SjDAiPmewXb+7Q38VfH3kjuZLB7qS/e+T2BJDRXbNc=
+  app: immense-bayou-96981
+  on:
+    repo: stevengalvis/micro-cs-client
