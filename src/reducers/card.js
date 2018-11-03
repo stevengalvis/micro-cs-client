@@ -1,4 +1,4 @@
-import linkedListImage from "../images/Linkedlist.png";
+import linkedListImage from "../images/linkedlist.png";
 import { UPDATE_CONTENT } from "../actions/card";
 const initialState = {
   content: {

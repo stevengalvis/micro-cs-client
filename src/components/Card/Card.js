@@ -1,16 +1,14 @@
 import React from "react";
 import { connect } from "react-redux";
 import { updateContent } from "../../actions/card";
-import Visual from "../Visual/Visual";
 import Content from "../Content/Content";
 
 export class Card extends React.Component {
   render() {
     return (
       <div className="card">
-        <h1>{this.props.header}</h1>
-        <Visual />
-        <Content />
+        <Content {...this.props} />
+        <button />
       </div>
     );
   }
