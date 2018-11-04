@@ -1,5 +1,4 @@
 export const UPDATE_CONTENT = "UPDATE_CONTENT";
-export const updateContent = content => ({
-  type: UPDATE_CONTENT,
-  content
+export const updateContent = () => ({
+  type: UPDATE_CONTENT
 });
