@@ -14,6 +14,7 @@ export class Card extends React.Component {
         <button className="more-btn" onClick={() => this.onMoreBtnClick()}>
           More
         </button>
+        <button>Back</button>
         <button>Next</button>
       </div>
     );
